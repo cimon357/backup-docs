@@ -1,0 +1,76 @@
+Обход блокировок на openWrt. ﻿Сборник статей с Хабра (и не только).
+Сохраненные web-страницы.
+Сохраняю на всякий случай. Список ссылок:
+
+Боремся с блокировками с помощью Trojan TCP на слабых устройствах c OpenWRT.
+На устройствах с 8 Мб ПЗУ и 64 ОЗУ (8/64).
+https://habr.com/ru/articles/780736/
+
+Обход блокировок на OpenWRT с помощью v2rayA (xray-core) и баз GeoIP, Geosite Antifilter.
+https://habr.com/ru/articles/773696/
+
+Поднимаем на OpenWrt туннели и прокси устойчивые к блокировкам по протоколу. Настройка sing-box и tun2socks.
+https://habr.com/ru/articles/767458/
+
+Настраиваем клиент Outline на OpenWRT за 5 минут с помощью tun2socks.
+https://habr.com/ru/articles/759638/
+
+Настройка клиент Outline на OpenWRT (≤ 21.02) на базе пакета shadowsocks-libev и tun2socks.
+https://habr.com/ru/articles/748408/
+
+Установка и настройка XRay на OpenWRT (для Shadowsocks, XTLS-Reality и всего-всего-всего).
+https://habr.com/ru/articles/757694/
+
+Проксируем OpenVPN через Shadowsocks или чиним OpenVPN во время блокировок.
+https://habr.com/ru/articles/760066/
+
+Проксируем OpenVPN с помощью Cloak.
+https://habr.com/ru/articles/758570/
+
+Обход блокировок на OpenWRT с помощью Sing-box (vless, vmess, trojan, ss).
+https://habr.com/ru/articles/756178/
+
+Обход блокировок на OpenWRT с помощью HomeProxy (sing-box).
+https://habr.com/ru/articles/760622/
+
+Обход блокировок на OpenWRT с помощью Passwall (v2ray, xray, trojan) и tun2socks.
+https://habr.com/ru/articles/755934/
+
+Точечный обход блокировок на роутере OpenWrt c помощью BGP.
+https://habr.com/ru/articles/743572/
+
+Точечный обход блокировок по доменам на роутере с OpenWrt.
+https://habr.com/ru/articles/767464/
+https://www.youtube.com/watch?v=Otv-kMzGOSU
+
+Точечный обход блокировок PKH на роутере с OpenWrt с помощью WireGuard и DNSCrypt.
+https://habr.com/ru/articles/440030/
+https://www.youtube.com/watch?v=GMvEF0PXN-w
+
+Точечный обход блокировок РКН на роутере с OpenWrt. Часть 2: Поиск и исправление ошибок.
+https://habr.com/ru/articles/702388/
+https://www.youtube.com/watch?v=jJSsGO5RrKw
+
+OpenClash - централизованный выборочный обход блокировок на роутере.
+https://zerolab.net/openclash-tsientralizovannyi-vyborochnyi-obkhod-blokirovok-na-routierie/
+
+
+Установка openWrt на мини-ПК (x86):
+https://alexelec.tv/obzor-mini-pk-t8-pro-chast-1-openwrt/
+
+В статье не сказано, что для разворачивания образа диска нужно поставить программу:
+
+sudo apt update
+sudo apt install gnome-disk-utility
+
+И еще одна статья на ту же тему на Хабре:
+https://habr.com/ru/articles/768694/
+
+Какой роутер с поддержкой OpenWrt купить в 2023 году.
+https://habr.com/ru/articles/725386/
+
+
+Географические ограничения на Хабре.
+Статья за 13.11.23 о том, что по требованию будут блокироваться разные материалы на Хабре
+(заглушка по гео-IP).
+https://habr.com/ru/companies/habr/articles/772926/
