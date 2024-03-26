@@ -1,9 +1,9 @@
-Êàê ñîõðàíÿòü web-ñòðàíèöû â PDF.
+ÃŠÃ Ãª Ã±Ã®ÃµÃ°Ã Ã­Ã¿Ã²Ã¼ web-Ã±Ã²Ã°Ã Ã­Ã¨Ã¶Ã» Ã¢ PDF.
 
-Ðåöåïò îòñþäà:
+ÃÃ¥Ã¶Ã¥Ã¯Ã² Ã®Ã²Ã±Ã¾Ã¤Ã :
 https://habr.com/ru/articles/799751/
 
 
-Äëÿ òåõ, êîìó, òàêæå êàê ìíå, ëåíü âðó÷íóþ î÷èùàòü òàêèå ïîëåçíûå ñòàòüè, ÷òîáû ñîõðàíèòü â PDF - íàïèñàë bookmarklet - îí îñòàâèò òîëüêî ñòàòüþ è êîììåíòàðèè, à òàêæå ðàñêðîåò âñå ñïîéëåðû - îñòàíåòñÿ òîëüêî îòïðàâèòü íà ïå÷àòü â PDF-ïðèíòåð.
+Ã„Ã«Ã¿ Ã²Ã¥Ãµ, ÃªÃ®Ã¬Ã³, Ã²Ã ÃªÃ¦Ã¥ ÃªÃ Ãª Ã¬Ã­Ã¥, Ã«Ã¥Ã­Ã¼ Ã¢Ã°Ã³Ã·Ã­Ã³Ã¾ Ã®Ã·Ã¨Ã¹Ã Ã²Ã¼ Ã²Ã ÃªÃ¨Ã¥ Ã¯Ã®Ã«Ã¥Ã§Ã­Ã»Ã¥ Ã±Ã²Ã Ã²Ã¼Ã¨, Ã·Ã²Ã®Ã¡Ã» Ã±Ã®ÃµÃ°Ã Ã­Ã¨Ã²Ã¼ Ã¢ PDF - Ã­Ã Ã¯Ã¨Ã±Ã Ã« bookmarklet - Ã®Ã­ Ã®Ã±Ã²Ã Ã¢Ã¨Ã² Ã²Ã®Ã«Ã¼ÃªÃ® Ã±Ã²Ã Ã²Ã¼Ã¾ Ã¨ ÃªÃ®Ã¬Ã¬Ã¥Ã­Ã²Ã Ã°Ã¨Ã¨, Ã  Ã²Ã ÃªÃ¦Ã¥ Ã°Ã Ã±ÃªÃ°Ã®Ã¥Ã² Ã¢Ã±Ã¥ Ã±Ã¯Ã®Ã©Ã«Ã¥Ã°Ã» - Ã®Ã±Ã²Ã Ã­Ã¥Ã²Ã±Ã¿ Ã²Ã®Ã«Ã¼ÃªÃ® Ã®Ã²Ã¯Ã°Ã Ã¢Ã¨Ã²Ã¼ Ã­Ã  Ã¯Ã¥Ã·Ã Ã²Ã¼ Ã¢ PDF-Ã¯Ã°Ã¨Ã­Ã²Ã¥Ã°.
 
 javascript:(function(){( () => {document.querySelectorAll( "details" ).forEach( i => i.setAttribute( "open", "" ) ); const dels = [".tm-base-layout__header",".tm-header",".tm-page__sidebar",".tm-comment-form",".tm-block_spacing-bottom",".tm-comment-navigation",".tm-footer-menu",".tm-footer",".tm-article-sticky-panel",];let el;for ( const s of dels ) {const els = document.querySelectorAll( s );if ( els ) for ( el of els ) el.remove();}el = document.querySelector( ".tm-page__main" );el.style.maxWidth = "100%";} )()})()
