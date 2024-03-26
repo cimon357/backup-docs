@@ -1,9 +1,9 @@
-Êàê ñîõðàíÿòü web-ñòðàíèöû â PDF.
+Как сохранять web-страницы в PDF.
 
-Ðåöåïò îòñþäà:
+Рецепт отсюда:
 https://habr.com/ru/articles/799751/
 
 
-Äëÿ òåõ, êîìó, òàêæå êàê ìíå, ëåíü âðó÷íóþ î÷èùàòü òàêèå ïîëåçíûå ñòàòüè, ÷òîáû ñîõðàíèòü â PDF - íàïèñàë bookmarklet - îí îñòàâèò òîëüêî ñòàòüþ è êîììåíòàðèè, à òàêæå ðàñêðîåò âñå ñïîéëåðû - îñòàíåòñÿ òîëüêî îòïðàâèòü íà ïå÷àòü â PDF-ïðèíòåð.
+Для тех, кому, также как мне, лень вручную очищать такие полезные статьи, чтобы сохранить в PDF - написал bookmarklet - он оставит только статью и комментарии, а также раскроет все спойлеры - останется только отправить на печать в PDF-принтер.
 
 javascript:(function(){( () => {document.querySelectorAll( "details" ).forEach( i => i.setAttribute( "open", "" ) ); const dels = [".tm-base-layout__header",".tm-header",".tm-page__sidebar",".tm-comment-form",".tm-block_spacing-bottom",".tm-comment-navigation",".tm-footer-menu",".tm-footer",".tm-article-sticky-panel",];let el;for ( const s of dels ) {const els = document.querySelectorAll( s );if ( els ) for ( el of els ) el.remove();}el = document.querySelector( ".tm-page__main" );el.style.maxWidth = "100%";} )()})()
