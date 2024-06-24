@@ -1,9 +1,21 @@
-Как сохранять web-страницы в PDF.
+Как сохранять web-страницы с Хабра в PDF.
 
 Рецепт отсюда:
 https://habr.com/ru/articles/799751/
 
-
 Для тех, кому, также как мне, лень вручную очищать такие полезные статьи, чтобы сохранить в PDF - написал bookmarklet - он оставит только статью и комментарии, а также раскроет все спойлеры - останется только отправить на печать в PDF-принтер.
 
 javascript:(function(){( () => {document.querySelectorAll( "details" ).forEach( i => i.setAttribute( "open", "" ) ); const dels = [".tm-base-layout__header",".tm-header",".tm-page__sidebar",".tm-comment-form",".tm-block_spacing-bottom",".tm-comment-navigation",".tm-footer-menu",".tm-footer",".tm-article-sticky-panel",];let el;for ( const s of dels ) {const els = document.querySelectorAll( s );if ( els ) for ( el of els ) el.remove();}el = document.querySelector( ".tm-page__main" );el.style.maxWidth = "100%";} )()})()
+
+Можно сохранять не в pdf, а в mhtml (в Brave - сохранить как "Web-страница, один файл"). 
+
+Про букмарклеты здесь:
+https://habr.com/ru/articles/52346/
+
+Другие способы:
+
+Для Firefox есть отличное расширение SingleFile - сохраняет выбранные страницы с картинками в один файл.
+https://addons.mozilla.org/ru/firefox/addon/single-file/
+
+Для Сhrome и ему подобных - SingleFile
+https://chromewebstore.google.com/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle
