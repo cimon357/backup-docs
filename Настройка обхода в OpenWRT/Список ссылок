@@ -5,6 +5,15 @@
 На устройствах с 8 Мб ПЗУ и 64 ОЗУ (8/64).
 https://habr.com/ru/articles/780736/
 
+Цитата из статьи:
+
+Для устройств 8/64 было найдено не так много вариантов, умещающихся в память устройства и устойчивых к блокировкам, это:
+
+Связка shadowsocks-libev + kcptun-client
+ShadowsocksR-libev
+Собственно trojan (статья об этом)
+trojan-plus - форк trojan с некоторыми дополнительными фичами
+
 Обход блокировок на OpenWRT с помощью v2rayA (xray-core) и баз GeoIP, Geosite Antifilter.
 https://habr.com/ru/articles/773696/
 
@@ -52,6 +61,9 @@ https://www.youtube.com/watch?v=jJSsGO5RrKw
 
 OpenClash - централизованный выборочный обход блокировок на роутере.
 https://zerolab.net/openclash-tsientralizovannyi-vyborochnyi-obkhod-blokirovok-na-routierie/
+
+Как запустить Shadowsocks на роутере с OpenWRT (англ.)
+https://ding.dev/run-shadowsocks-on-openwrt/
 
 
 Установка openWrt на мини-ПК (x86):
